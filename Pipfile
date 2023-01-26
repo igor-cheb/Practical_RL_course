@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+gym = "*"
+numpy = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+jupyter = "*"
+matplotlib = "*"
+pygame = "*"
+moviepy = "*"
+scipy = "*"
+cmake = "*"
+install = "*"
+stable-baselines3 = {extras = ["extra"], version = "*"}
+pyglet = "==1.5.27"
+scikit-learn = "*"
+jupyterthemes = "*"
+tensorflow = "*"
+seaborn = "*"
+youtube-dl = "*"
+editdistance = "*"
+update = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
